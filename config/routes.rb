@@ -1,4 +1,6 @@
 Project::Application.routes.draw do
+  get "members/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
