@@ -1,5 +1,9 @@
 Project::Application.routes.draw do
-  get "members/index"
+  #get "members/index"
+	 root :to => 'members#index'
+	 
+	 #match '/', :to => 'members#index'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
