@@ -9,7 +9,12 @@ gem 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
-
+gem 'cucumber'
+gem 'cucumber-rails'
+gem 'rspec'
+gem 'rspec-rails'
+gem 'capybara'
+gem 'database_cleaner'
 # Deploy with Capistrano
 # gem 'capistrano'
 
